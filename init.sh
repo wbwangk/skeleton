@@ -1,5 +1,6 @@
 #!/bin/bash -e
-
+ 
+# The CLI moved into a separate package: webpack-cli (for webpack@4.2.0).
 npm i --save babel-core webpack webpack-cli webpack-dev-server
 npm i --save-dev babel-loader babel-preset-es2015 babel-preset-react
 npm i --save bignumber.js react react-dom
